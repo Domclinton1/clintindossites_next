@@ -35,12 +35,12 @@ export default function Header() {
               Tráfego Pago
             </Link>
 
-            <Link href="/blog" onClick={closeMenu}>
-              Blog
-            </Link>
-
             <Link href="/portfolio" onClick={closeMenu}>
               Portfólio
+            </Link>
+
+            <Link href="/blog" onClick={closeMenu}>
+              Blog
             </Link>
 
             <Link href="/contato" onClick={closeMenu}>
@@ -48,11 +48,11 @@ export default function Header() {
             </Link>
 
             <Link
-              href="/oferta-vidracaria"
+              href="/sites-para-construtores"
               className="cta-button"
               onClick={closeMenu}
             >
-              Oferta Limitada
+              Sites para Construtores
             </Link>
           </nav>
 

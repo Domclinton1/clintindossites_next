@@ -1,3 +1,5 @@
+"use client";
+
 import CtaButton from "../../../components/CTAButton";
 import FormTrafegoPago from "./FormTrafegoPago";
 export default function HeroTrafego() {

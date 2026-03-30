@@ -18,27 +18,29 @@ export default function PlanosTrafego() {
         </div>
 
         {/* GRID */}
-        <div className="planosGrid w-full max-w-[1200px] m-autoflex gap-[1rem] flex justify-between">
+        <div className="planosGrid w-full max-w-[1200px] m-autoflex gap-[1rem] flex justify-between items-center">
           {/* CARD 1 */}
           <div
             className="
             plano-card
             bg-white
-            p-10
+            p-5
             rounded-[20px]
             shadow-[0_10px_28px_rgba(0,0,0,0.08)]
             text-left
             flex flex-col gap-4
             hover:-translate-y-2
             hover:shadow-[0_18px_40px_rgba(0,0,0,0.15)]
-            transition duration-300
+            transition duration-300 h-full
           "
           >
             <h3 className="text-2xl font-semibold text-[#0b2545]">
               Setup Avulso de Campanha
             </h3>
 
-            <p className="textPlanos">Por apenas R$ 500</p>
+            <p className="textPlanos">
+              A PARTIR DE <br /> R$ 500
+            </p>
 
             <ul className="space-y-2 text-violet-600 text-lg">
               <li>Criação completa da campanha</li>
@@ -52,7 +54,7 @@ export default function PlanosTrafego() {
             </p>
 
             <CtaButton href="https://wa.me/5538991369873?text=Quero%20contratar%20gest%C3%A3o%20de%20tr%C3%A1fego%20pago PACOTE AVULSO!">
-              Quero esse pacote
+              Quero esse plano
             </CtaButton>
           </div>
 
@@ -60,6 +62,54 @@ export default function PlanosTrafego() {
           <div
             className="
             plano-card destaque
+              relative
+              p-10
+              rounded-[20px]
+              text-left
+              flex flex-col gap-4
+              overflow-hidden
+              border border-white/10
+              shadow-[0_10px_30px_rgba(0,0,0,0.3)]
+              hover:-translate-y-2
+              transition duration-300
+              bg-cover bg-center h-full
+            "
+            style={{
+              backgroundImage: "url('/assets/images/google-print.png')",
+            }}
+          >
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-br from-black/80 to-black/50 z-0" />
+
+            <div className="relative z-10 flex flex-col gap-4">
+              <h3 className="text-2xl font-semibold text-white">
+                Plano de Gestão Mensal Básico
+              </h3>
+
+              <p className="textPlanos">A partir de R$ 1.247,00/mês</p>
+
+              <ul className="space-y-2 text-violet-300 text-lg">
+                <li>Gestão Google ADS ou Facebook ADS</li>
+                <li>Gestão completa das campanhas</li>
+                <li>Otimizações semanais</li>
+                <li>Relatórios de desempenho</li>
+                <li>Suporte contínuo</li>
+              </ul>
+
+              <p className="textPlanos2">
+                Valor varia conforme volume de anúncios e plataformas.
+              </p>
+
+              <CtaButton href="https://wa.me/5538991369873?text=Quero%20contratar%20gest%C3%A3o%20de%20tr%C3%A1fego%20pago PLANO BÁSICO MENSAL!">
+                Quero esse plano
+              </CtaButton>
+            </div>
+          </div>
+
+          {/* CARD 3 - DESTAQUE */}
+          <div
+            className="
+            plano-card 
               relative
               p-10
               rounded-[20px]
@@ -81,12 +131,16 @@ export default function PlanosTrafego() {
 
             <div className="relative z-10 flex flex-col gap-4">
               <h3 className="text-2xl font-semibold text-white">
-                Plano de Gestão Mensal
+                Plano de Gestão Mensal Premium
               </h3>
 
-              <p className="textPlanos">A partir de R$ 1.400,00/mês</p>
+              <p className="textPlanos">
+                por apenas <br />
+                R$ 1.997,00/mês
+              </p>
 
               <ul className="space-y-2 text-violet-300 text-lg">
+                <li>Gestão Google ADS e Facebook ADS</li>
                 <li>Gestão completa das campanhas</li>
                 <li>Otimizações semanais</li>
                 <li>Relatórios de desempenho</li>
@@ -97,8 +151,8 @@ export default function PlanosTrafego() {
                 Valor varia conforme volume de anúncios e plataformas.
               </p>
 
-              <CtaButton href="https://wa.me/5538991369873?text=Quero%20contratar%20gest%C3%A3o%20de%20tr%C3%A1fego%20pago PLANO MENSAL!">
-                Quero plano mensal
+              <CtaButton href="https://wa.me/5538991369873?text=Quero%20contratar%20gest%C3%A3o%20de%20tr%C3%A1fego%20pago PLANO MENSAL PREMIUM!">
+                Quero esse plano
               </CtaButton>
             </div>
           </div>

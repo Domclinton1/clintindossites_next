@@ -28,9 +28,40 @@ const faqs = [
     answer:
       "Sim. Também trabalhamos com tráfego pago no Google e redes sociais para gerar visitas e clientes para o seu negócio.",
   },
+  {
+    question: "Os resultados de tráfego pago na página são reais?",
+    answer:
+      "Sim. Tenho compromisso com a verdade e todos os reultados são reais, sem nada editado para parecer algo milagroso.",
+  },
+  {
+    question: "Quais benefícios seu tráfego pago trouxe aos seus clientes?",
+    answer:
+      "Meus clientes aumentaram significativamente o volume de vendas, visibilidade no Google e redes sociais e aumento de seguidoires e engajamento nas redes sociais.",
+  },
+  {
+    question:
+      "Eu posso escolher só o Google ADS ou só o Meta ADS ou tenho que escolher somente os dois?",
+    answer:
+      "Isso vai de acordo com a sua necessidade e comportamento do seu cliente. Alguns negócios tendem a performar mais no Google ADS enquanto outros performam melhor no Facebook ADS. Mas o ideal seria anunciar nas duas plataformas.",
+  },
+  {
+    question: "Quantos reais por dia eu devo anunciar?",
+    answer:
+      "Eu recomendo anunciar pelo menos R$500 por semana isso utilizando o Google ADS + Meta ADS, agora se você anuncia só em uma plataforma, o recomendado é no minímo R$300 por semana. Mas quanto maior o retorno, maior o resultado.",
+  },
+  {
+    question: "E da resultado mesmo?",
+    answer:
+      "Sim, é o que movimenta as empresas hoje em dia pois pode colocar as empresas na frente dos seus potenciais clientes e assim sempre mantendo um rítmo positivo de vendas.",
+  },
+  {
+    question: "Fazem campanhas avulsas ou somente mensais?",
+    answer:
+      "Faço as duas opções, o cliente quer algo bom e nós ofertamos o melhor. Campanhas avulsas a partir de R$500 o pacote e campanhas mensais a partir de R$1.247,00 por mês.",
+  },
 ];
 
-export default function Faq() {
+export default function FaqPortfolio() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   function toggle(index: number) {

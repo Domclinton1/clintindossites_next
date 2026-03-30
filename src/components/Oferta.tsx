@@ -28,7 +28,7 @@ export default function Oferta() {
 
           {/* TÍTULO */}
           <h2 className="text-metal text-3xl md:text-4xl max-w-3xl">
-            Condições Especiais para Prestadores de Serviços
+            Condições Especiais para Profissionais da construção
           </h2>
 
           {/* SUBTÍTULO */}
