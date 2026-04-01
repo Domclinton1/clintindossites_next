@@ -1,6 +1,5 @@
 "use client";
 
-import { link } from "fs";
 import Image from "next/image";
 
 const rows = [
@@ -229,7 +228,7 @@ h-[320px] sm:h-[340px] md:h-[380px]
                   "
                 >
                   {/* IMAGE */}
-                  <div className="h-full overflow-hidden">
+                  <div className="relative h-full overflow-hidden">
                     <Image
                       src={item.img}
                       alt="Projeto"

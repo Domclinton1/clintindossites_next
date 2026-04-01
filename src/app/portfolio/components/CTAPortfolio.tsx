@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function HeroForm() {
+export default function PortfolioForm() {
   const [form, setForm] = useState({
     nome: "",
     servico: "",

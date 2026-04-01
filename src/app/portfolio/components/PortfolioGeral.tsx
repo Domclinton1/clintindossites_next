@@ -1,9 +1,18 @@
 "use client";
 
-import { link } from "fs";
 import Image from "next/image";
 
-const rows = [
+type PortfolioItem = {
+  img: string;
+  link?: string;
+};
+
+type PortfolioRow = {
+  titulo: string;
+  itens: PortfolioItem[];
+};
+
+const rows: PortfolioRow[] = [
   {
     titulo: "Websites para Construtores",
     itens: [
@@ -179,6 +188,64 @@ const rows = [
       {
         link: "https://linkcardflix.vercel.app",
         img: "/assets/images/linkcardflix-app.webp",
+      },
+    ],
+  },
+  {
+    titulo: "Gestão de Trafego Meta ADS",
+    itens: [
+      {
+        img: "/assets/images/meta_ads_bnesquadrias.webp",
+      },
+      {
+        img: "/assets/images/meta_ads_clintin_dos_sites.webp",
+      },
+      {
+        img: "/assets/images/meta_ads_hreletronicos.webp",
+      },
+      {
+        img: "/assets/images/meta_ads_newform.webp",
+      },
+      {
+        img: "/assets/images/meta_ads_pizzaria_prazeres_da_massa.webp",
+      },
+      {
+        img: "/assets/images/meta_ads_retifica.webp",
+      },
+      {
+        img: "/assets/images/meta_ads_telecom.webp",
+      },
+      {
+        img: "/assets/images/meta_ads_telecom2.webp",
+      },
+      {
+        img: "/assets/images/meta_ads_telecom3.webp",
+      },
+      {
+        img: "/assets/images/meta_ads_vidrosa.webp",
+      },
+    ],
+  },
+  {
+    titulo: "Gestão de Tráfego Google ADS",
+    itens: [
+      {
+        img: "/assets/images/google_ads_bnesquadrias.webp",
+      },
+      {
+        img: "/assets/images/google_ads_jcesquadrias.webp",
+      },
+      {
+        img: "/assets/images/google_ads_ vidrosa.webp",
+      },
+      {
+        img: "/assets/images/google_ads_newfom.webp",
+      },
+      {
+        img: "/assets/images/google_ads_wmaesquadrias.webp",
+      },
+      {
+        img: "/assets/images/google-print-2.png",
       },
     ],
   },
