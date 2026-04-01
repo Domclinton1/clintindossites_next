@@ -288,7 +288,7 @@ export default function PortfolioGeral() {
                   group
                   relative
                   flex-[0_0_240px] sm:flex-[0_0_260px] md:flex-[0_0_280px]
-h-[320px] sm:h-[340px] md:h-[380px]
+                  h-[320px] sm:h-[340px] md:h-[380px]
                   rounded-[18px]
                   border border-[rgba(127,61,255,0.25)]
                   bg-[#0b0b0f]
