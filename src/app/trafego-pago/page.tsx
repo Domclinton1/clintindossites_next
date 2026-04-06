@@ -5,6 +5,14 @@ import ProvasTrafego from "@/app/trafego-pago/components/ProvasTrafego";
 import PlanosTrafego from "@/app/trafego-pago/components/PlanosTrafego";
 import FaqTrafego from "@/app/trafego-pago/components/FaqTrafego";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Gestão de Tráfego Pago",
+  description:
+    "Gestão profissional de Google Ads e Facebook Ads para gerar clientes e vendas.",
+};
+
 export default function TrafegoPagoPage() {
   return (
     <>

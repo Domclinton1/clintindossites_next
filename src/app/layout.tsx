@@ -21,53 +21,25 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://clintindossites.com.br"),
-
   title: {
-    default: "Clintin dos Sites",
+    default: "Clintin dos Sites - Criação de Sites e Google Ads",
     template: "%s | Clintin dos Sites",
   },
-
   description:
-    "Desenvolvimento de sites profissionais, landing pages, e-commerce, aplicativos e gestão de tráfego pago.",
-
+    "Criação de sites profissionais, landing pages e gestão de tráfego pago para empresas e prestadores de serviço.",
   keywords: [
-    "orçamento criação de sites",
+    "criação de sites em bh",
+    "criação de sites em sp",
+    "preço site para empresas",
     "criação de sites",
-    "orçamento ecommerce",
-    "orçamento landing page",
-    "desenvolvimento web",
-    "tráfego pago",
-    "criação de sites em Belo Horizonte",
-    "criar site profissional",
+    "desenvolvedor web",
+    "landing page",
+    "site one page",
+    "sites para construtores",
+    "sites para restaurantes",
+    "gestor de tráfego pago",
+    "manutenção de computadores",
   ],
-
-  authors: [{ name: "Clintin dos Sites" }],
-  creator: "Clintin dos Sites",
-
-  icons: {
-    icon: "/logo.svg",
-    shortcut: "/logo.svg",
-    apple: "/logo.svg",
-  },
-
-  openGraph: {
-    title: "Clintin dos Sites",
-    description:
-      "Sites profissionais, landing pages e tráfego pago para empresas que querem escalar.",
-    url: "https://clintindossites.com.br",
-    siteName: "Clintin dos Sites",
-    locale: "pt_BR",
-    type: "website",
-    images: [
-      {
-        url: "/logo.png", // coloca essa imagem no /public
-        width: 1200,
-        height: 630,
-        alt: "Clintin dos Sites",
-      },
-    ],
-  },
-
   robots: {
     index: true,
     follow: true,
@@ -116,8 +88,8 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
         {children}
-        <Footer />
         <CookieConsent />
+        <Footer />
       </body>
     </html>
   );
