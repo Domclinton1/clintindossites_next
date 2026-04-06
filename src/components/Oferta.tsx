@@ -44,7 +44,7 @@ export default function Oferta() {
           </p>
 
           {/* BOTÃO */}
-          <Link href="/oferta-vidracaria" className="cta-button mt-2">
+          <Link href="/sitesparaconstrutores" className="cta-button mt-2">
             Ver Oferta Completa
           </Link>
         </div>

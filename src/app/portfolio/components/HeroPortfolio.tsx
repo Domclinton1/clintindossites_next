@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function HeroPortfolio() {
   return (
     <section>
-      <div className="mx-auto max-w-[1200px] flex flex-col justify-center text-center gap-2 mt-[150px] items-center gap-[1.3rem]">
+      <div className=" mx-auto max-w-[1200px] flex flex-col justify-center text-center gap-2 mt-[150px] items-center gap-[1.3rem]">
         <h1>Aplicações online e resultados digitais</h1>
         <p>
           Confira websites, landing pages, aplicações mobile e resultados

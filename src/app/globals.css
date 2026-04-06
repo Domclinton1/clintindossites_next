@@ -256,7 +256,8 @@ h3,
   font-size: 24px;
 }
 
-.form-whatsapp label {
+.form-whatsapp label,
+.quiz-hero label {
   display: block;
   margin-top: 20px;
   color: #dcdcdc;
@@ -265,7 +266,10 @@ h3,
 
 .form-whatsapp input,
 .form-whatsapp select,
-.form-whatsapp textarea {
+.form-whatsapp textarea,
+.quiz-hero input,
+.quiz-hero textarea,
+.quiz-hero button {
   width: 100%;
   margin-top: 6px;
   padding: 12px 14px;
@@ -274,16 +278,21 @@ h3,
   border-radius: 10px;
   color: #ffffff;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .form-whatsapp input::placeholder,
-.form-whatsapp textarea::placeholder {
+.form-whatsapp textarea::placeholder,
+.quiz-hero input::placeholder,
+.quiz-hero textarea::placeholder {
   color: #8b8b8b;
 }
 
 .form-whatsapp input:focus,
 .form-whatsapp select:focus,
-.form-whatsapp textarea:focus {
+.form-whatsapp textarea:focus .quiz-hero input:focus,
+.quiz-hero textarea:focus,
+.quiz-hero button:focus {
   outline: none;
   border-color: #9b6cff;
   box-shadow: 0 0 12px rgba(155, 108, 255, 0.6);
@@ -1084,4 +1093,71 @@ h3,
   color: #cfcfcf;
   font-size: 15px;
   line-height: 1.6;
+}
+.hero-portfolio {
+  position: relative;
+  background-image: url("/assets/images/banner-construtores-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-portfolio::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-portfolio .hero-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  align-items: center;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.quiz-hero {
+  width: 100%;
+  max-width: 480px;
+  background: #12121a;
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(127, 61, 255, 0.3);
+  box-shadow: 0 0 40px rgba(127, 61, 255, 0.15);
+  text-align: left;
+  margin: 20px auto;
+  margin-bottom: 50px;
+}
+.quizcta {
+  width: 100%;
+  margin-top: 12px;
+  padding: 14px 20px;
+  background: linear-gradient(135deg, #4b1fb8, #7f3dff, #9b6cff);
+  border: none;
+  border-radius: 14px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  max-width: max-content;
+  gap: 1rem;
+  margin: 10px auto;
 }
