@@ -60,7 +60,12 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
+        <div className="policies-links">
+          <a href="/politica-de-privacidade">Política de Privacidade</a>
+          <a href="/termos-de-uso">Termos de Uso</a>
+          <a href="/politica-de-cookies">Política de Cookies</a>
+          <a href="/contato">Contato</a>
+        </div>
         <div className="footer-bottom">
           <p>© 2026 Clintin dos Sites. Todos os direitos reservados.</p>
         </div>

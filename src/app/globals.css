@@ -1161,3 +1161,22 @@ h3,
   gap: 1rem;
   margin: 10px auto;
 }
+.policies-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  text-decoration: none;
+  margin: 20px auto;
+}
+.policies-links a {
+  text-decoration: none;
+  color: #9e9e9e;
+}
+.policies-links a:hover {
+  color: var(--roxo-brilho-neon);
+}
+@media screen and (max-width: 768px) {
+  .policies-links {
+    flex-direction: wrap;
+  }
+}
