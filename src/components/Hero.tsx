@@ -1,4 +1,3 @@
-import CtaButton from "@/components/CTAButton";
 import HeroForm from "@/components/HeroForm";
 
 export default function Hero() {
@@ -11,13 +10,16 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg text-gray-300">
-            Desenvolvimento web + tráfego pago para negócios que querem escalar.
+            Desenvolvemos sites para empresas, restaurantes, construtores,
+            engenheiros, serralheiros, vidraçarias, clínicas, lojas e
+            prestadores de serviço.
           </p>
 
-          <CtaButton href="https://wa.me/5538991369873?text=Quero%20realizar%20um%20orçamento">
-            Orçamento no Whatsapp
-            <span className="icon icon-whatsapp" />
-          </CtaButton>
+          <div className="flex flex-col gap-6 text-sm text-gray-400">
+            <span>✔ Landing Page a partir de R$697</span>
+            <span>✔ Site Institucional a partir de R$1.497</span>
+            <span>✔ Loja Virtual a partir de R$2.497</span>
+          </div>
         </div>
 
         <div className="flex-1">

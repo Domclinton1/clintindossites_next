@@ -38,9 +38,7 @@ export default function Header() {
             <Link href="/portfolio" onClick={closeMenu}>
               Portfólio
             </Link>
-            <Link href="/manutenca-pc" onClick={closeMenu}>
-              Manutenção em Computadores
-            </Link>
+
             <Link href="/blog" onClick={closeMenu}>
               Blog
             </Link>

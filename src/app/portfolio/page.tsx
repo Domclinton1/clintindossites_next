@@ -8,8 +8,8 @@ export default function Portfolio() {
     <>
       <HeroPortfolio />
       <PortfolioGeral />
-      <CTAPortfolio />
       <FaqPortfolio />
+      <CTAPortfolio />
     </>
   );
 }
