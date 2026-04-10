@@ -232,7 +232,6 @@ h-[320px] sm:h-[340px] md:h-[380px]
                     <img
                       src={item.img}
                       alt="Projeto"
-                      fill
                       className="
                       object-cover
                       min-h-[120%]
