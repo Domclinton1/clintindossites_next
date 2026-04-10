@@ -229,9 +229,10 @@ h-[320px] sm:h-[340px] md:h-[380px]
                 >
                   {/* IMAGE */}
                   <div className="relative h-full overflow-hidden">
-                    <img
+                    <Image
                       src={item.img}
                       alt="Projeto"
+                      fill
                       className="
                       object-cover
                       min-h-[120%]

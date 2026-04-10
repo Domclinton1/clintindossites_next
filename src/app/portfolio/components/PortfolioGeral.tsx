@@ -297,9 +297,10 @@ export default function PortfolioGeral() {
                 >
                   {/* IMAGE */}
                   <div className="h-full overflow-hidden">
-                    <img
+                    <Image
                       src={item.img}
                       alt="Projeto"
+                      fill
                       className="
                       object-cover
                       min-h-[120%]
