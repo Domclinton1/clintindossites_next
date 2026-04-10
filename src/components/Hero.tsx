@@ -1,4 +1,3 @@
-import HeroForm from "@/components/HeroForm";
 import Link from "next/link";
 
 export default function Hero() {
@@ -19,7 +18,7 @@ export default function Hero() {
           <div className="flex flex-col gap-6 text-sm text-gray-400">
             <span>✔ Landing Page a partir de R$497</span>
             <span>✔ Site Institucional a partir de R$997</span>
-            <span>✔ Loja Virtual e App's a partir de R$2.497</span>
+            <span>✔ Loja Virtual e App Mobile a partir de R$2.497</span>
           </div>
           <Link
             href="https://wa.me/5538991369873?text=Olá,%20tenho%20interesse%20em%20adquirir%20um%20website.%20Pode%20me%20explicar%20como%20funciona?"
@@ -31,9 +30,9 @@ export default function Hero() {
           </Link>
         </div>
 
-        <div className="flex-1">
-          <HeroForm />
-        </div>
+        {/*<div className="flex-1">
+          <Image src="" />
+        </div>*/}
       </div>
     </section>
   );
