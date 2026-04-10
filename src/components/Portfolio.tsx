@@ -8,39 +8,39 @@ const rows = [
     itens: [
       {
         link: "https://www.vidrosa.com.br",
-        img: "/public/assets/images/vidrosa-site.webp",
+        img: "/assets/images/vidrosa-site.webp",
       },
       {
         link: "https://wmaesquadriasevidros.com.br/",
-        img: "/public/assets/images/wmaesquadriasevidros.webp",
+        img: "/assets/images/wmaesquadriasevidros.webp",
       },
       {
         link: "https://www.bnesquadrias.com.br",
-        img: "/public/assets/images/bnesquadrias-site.webp",
+        img: "/assets/images/bnesquadrias-site.webp",
       },
       {
         link: "https://www.newformesquadrias.com.br",
-        img: "/public/assets/images/newformesquadrias-site.webp",
+        img: "/assets/images/newformesquadrias-site.webp",
       },
       {
         link: "https://www.gmglass.com.br",
-        img: "/public/assets/images/gmglass-site.webp",
+        img: "/assets/images/gmglass-site.webp",
       },
       {
         link: "https://www.jcesquadriasmg.com.br",
-        img: "/public/assets/images/jc-esquadrias-site.webp",
+        img: "/assets/images/jc-esquadrias-site.webp",
       },
       {
         link: "https://www.wedsonconstrucoes.com.br",
-        img: "/public/assets/images/wedsonconstrucoes-site.webp",
+        img: "/assets/images/wedsonconstrucoes-site.webp",
       },
       {
         link: "https://fceserralheria-deluxe.vercel.app/",
-        img: "/public/assets/images/fce-serralheria-2.webp",
+        img: "/assets/images/fce-serralheria-2.webp",
       },
       {
         link: "https://fce-serralheria-site.vercel.app/",
-        img: "/public/assets/images/fce-serralheria-1.webp",
+        img: "/assets/images/fce-serralheria-1.webp",
       },
     ],
   },
@@ -50,51 +50,51 @@ const rows = [
     itens: [
       {
         link: "https://angelamodas.vercel.app/",
-        img: "/public/assets/images/angelamodas-site.webp",
+        img: "/assets/images/angelamodas-site.webp",
       },
       {
         link: "https://hreletronicos.vercel.app",
-        img: "/public/assets/images/hreletronicos-site.webp",
+        img: "/assets/images/hreletronicos-site.webp",
       },
       {
         link: "https://dnbluxembourgsa.vercel.app",
-        img: "/public/assets/images/dbnluxembourg-site.webp",
+        img: "/assets/images/dbnluxembourg-site.webp",
       },
       {
         link: "https://internationalcarservices.vercel.app/",
-        img: "/public/assets/images/international-car-services-site.webp",
+        img: "/assets/images/international-car-services-site.webp",
       },
       {
         link: "https://dllgroupcastro.vercel.app/",
-        img: "/public/assets/images/dllgroup-site.webp",
+        img: "/assets/images/dllgroup-site.webp",
       },
       {
         link: "https://diniztransportes.vercel.app",
-        img: "/public/assets/images/diniztransportes-site.webp",
+        img: "/assets/images/diniztransportes-site.webp",
       },
       {
         link: "https://harmoniapsicanalitica.com.br",
-        img: "/public/assets/images/harmoniapsicanalitica-site.webp",
+        img: "/assets/images/harmoniapsicanalitica-site.webp",
       },
       {
         link: "https://salaokennoa.vercel.app/",
-        img: "/public/assets/images/kennoa-beauty-site.webp",
+        img: "/assets/images/kennoa-beauty-site.webp",
       },
       {
         link: "https://feriasdossonhos.vercel.app",
-        img: "/public/assets/images/feriasdossonhos-site.webp",
+        img: "/assets/images/feriasdossonhos-site.webp",
       },
       {
         link: "https://granmaisnatural.vercel.app/",
-        img: "/public/assets/images/grannatural-site.webp",
+        img: "/assets/images/grannatural-site.webp",
       },
       {
         link: "https://diskfiltro.vercel.app/",
-        img: "/public/assets/images/diskfiltro-site.webp",
+        img: "/assets/images/diskfiltro-site.webp",
       },
       {
         link: "https://eu-arrumo.vercel.app/",
-        img: "/public/assets/images/euarrumo.webp",
+        img: "/assets/images/euarrumo.webp",
       },
     ],
   },
@@ -103,23 +103,23 @@ const rows = [
     itens: [
       {
         link: "https://fujitel.vercel.app/",
-        img: "/public/assets/images/fujitel-site.webp",
+        img: "/assets/images/fujitel-site.webp",
       },
       {
         link: "https://vitalservicostelecom.vercel.app/",
-        img: "/public/assets/images/vitalservicos-site.webp",
+        img: "/assets/images/vitalservicos-site.webp",
       },
       {
         link: "https://soaresfibra.vercel.app",
-        img: "/public/assets/images/soaresfibra-site.webp",
+        img: "/assets/images/soaresfibra-site.webp",
       },
       {
         link: "https://fctelecom.vercel.app/",
-        img: "/public/assets/images/fc-telecom-site.webp",
+        img: "/assets/images/fc-telecom-site.webp",
       },
       {
         link: "https://tf-telecom.vercel.app/",
-        img: "/public/assets/images/tftelecom-site.webp",
+        img: "/assets/images/tftelecom-site.webp",
       },
     ],
   },
@@ -128,35 +128,35 @@ const rows = [
     itens: [
       {
         link: "https://resistenciacavalar.vercel.app",
-        img: "/public/assets/images/resistencia-cavalar-site.webp",
+        img: "/assets/images/resistencia-cavalar-site.webp",
       },
       {
         link: "https://amandapas.vercel.app/",
-        img: "/public/assets/images/amandapas-site.webp",
+        img: "/assets/images/amandapas-site.webp",
       },
       {
         link: "https://projeto-seca-rapido.vercel.app/",
-        img: "/public/assets/images/lipotraining-site.webp",
+        img: "/assets/images/lipotraining-site.webp",
       },
       {
         link: "https://paidosestofados.vercel.app/",
-        img: "/public/assets/images/paidosestofados-site.webp",
+        img: "/assets/images/paidosestofados-site.webp",
       },
       {
         link: "https://fature1k.vercel.app/",
-        img: "/public/assets/images/karinaferraira-site.webp",
+        img: "/assets/images/karinaferraira-site.webp",
       },
       {
         link: "https://sissibolinhos.vercel.app/",
-        img: "/public/assets/images/sissi-bolinhos.webp",
+        img: "/assets/images/sissi-bolinhos.webp",
       },
       {
         link: "https://clickschat.com.br",
-        img: "/public/assets/images/clickschat-site.webp",
+        img: "/assets/images/clickschat-site.webp",
       },
       {
         link: "https://clube-dos-psicopedagogos.vercel.app/",
-        img: "/public/assets/images/clubedospsicopedagogos-site.webp",
+        img: "/assets/images/clubedospsicopedagogos-site.webp",
       },
     ],
   },
@@ -165,19 +165,19 @@ const rows = [
     itens: [
       {
         link: "https://cearaburgueracai.vercel.app/ceara-app",
-        img: "/public/assets/images/cearaburugeracai-app.webp",
+        img: "/assets/images/cearaburugeracai-app.webp",
       },
       {
         link: "https://ceara-acai-burguer.vercel.app",
-        img: "/public/assets/images/cearaburgueracai-app-2.webp",
+        img: "/assets/images/cearaburgueracai-app-2.webp",
       },
       {
         link: "https://kazzau-links.vercel.app",
-        img: "/public/assets/images/sergiolanches-links.webp",
+        img: "/assets/images/sergiolanches-links.webp",
       },
       {
         link: "https://linkcardflix.vercel.app",
-        img: "/public/assets/images/linkcardflix-app.webp",
+        img: "/assets/images/linkcardflix-app.webp",
       },
     ],
   },
@@ -229,7 +229,7 @@ h-[320px] sm:h-[340px] md:h-[380px]
                 >
                   {/* IMAGE */}
                   <div className="relative h-full overflow-hidden">
-                    <Image
+                    <img
                       src={item.img}
                       alt="Projeto"
                       fill
