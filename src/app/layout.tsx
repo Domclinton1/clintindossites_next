@@ -6,6 +6,7 @@ import CookieConsent from "@/components/CookieConsent";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import TrackingButtons from "@/components/TrackingButtons";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -103,40 +104,54 @@ export default function RootLayout({
         window.gtag = gtag;
         gtag('js', new Date());
         gtag('config', 'G-3P5VRB3EH9');
+        gtag('config', 'AW-17677408224'); 
       `}
         </Script>
 
         {/* Meta Pixel */}
+        {/* Meta Pixel */}
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1253175769645630');
-        fbq('track', 'PageView');
-      `}
-        </Script>
+    !function(f,b,e,v,n,t,s)
+    {
+      if(f.fbq)return;
+      n=f.fbq=function(){
+        n.callMethod ?
+        n.callMethod.apply(n,arguments) : n.queue.push(arguments)
+      };
+      if(!f._fbq)f._fbq=n;
+      n.push=n;
+      n.loaded=!0;
+      n.version='2.0';
+      n.queue=[];
+      t=b.createElement(e);
+      t.async=!0;
+      t.src=v;
+      s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s);
+    }(
+      window,
+      document,
+      'script',
+      'https://connect.facebook.net/en_US/fbevents.js'
+    );
 
-        <Script id="meta-pixel-construction" strategy="afterInteractive">
-          {`!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1819571058719593');
-fbq('track', 'PageView');`}
+    fbq('init', '1253175769645630');
+    fbq('init', '1819571058719593');
+
+    fbq('track', 'PageView');
+  `}
         </Script>
         <noscript>
           <Image
-            alt="meta pixel callback"
+            alt="meta pixel 1"
+            height="1"
+            width="1"
+            style={{ display: "none" }}
+            src="https://www.facebook.com/tr?id=1253175769645630&ev=PageView&noscript=1"
+          />
+          <Image
+            alt="meta pixel 2"
             height="1"
             width="1"
             style={{ display: "none" }}
@@ -145,6 +160,7 @@ fbq('track', 'PageView');`}
         </noscript>
       </head>
       <body className={`${inter.variable} ${poppins.variable}`}>
+        <TrackingButtons />
         <Header />
         <script
           type="application/ld+json"

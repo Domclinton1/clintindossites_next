@@ -234,7 +234,10 @@ Quero adquirir meu site para constutores.`;
             }
           />
 
-          <button onClick={finalizar} className="quizcta cta-button">
+          <button
+            onClick={finalizar}
+            className="quizcta cta-button whatsapp-track"
+          >
             Receber análise pelo WhatsApp
           </button>
         </div>

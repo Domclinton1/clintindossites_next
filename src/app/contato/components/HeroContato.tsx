@@ -17,7 +17,7 @@ export default function HeroContato() {
 
           <CtaButton href="https://wa.me/5538991369873?text=Quero%20realizar%20um%20orçamento">
             Orçamento no Whatsapp
-            <span className="icon icon-whatsapp" />
+            <span className="icon icon-whatsapp whatsapp-track" />
           </CtaButton>
         </div>
 

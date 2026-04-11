@@ -59,7 +59,7 @@ export default function OfertaConstrutores() {
                 </p>
                 <Link
                   href="https://wa.me/5538991369873?text=Olá,%20tenho%20interesse%20em%20adquirir%20um%20website%20para%20construtores%20por%20R$1.997,00%20para%20gerar%20orçamentos.%20Pode%20me%20explicar%20como%20funciona?"
-                  className="cta-button"
+                  className="cta-button whatsapp-track"
                   id="apenas-site"
                 >
                   Quero adquirir apenas o Website
@@ -80,7 +80,7 @@ export default function OfertaConstrutores() {
                   </ul>
                   <Link
                     href="https://wa.me/5538991369873?text=Olá,%20tenho%20interesse%20na%20campanha%20de%20tráfego%20pago%20avulsa%20de%20R$600%20para%20gerar%20orçamentos.%20Pode%20me%20explicar%20como%20funciona?"
-                    className="cta-button"
+                    className="cta-button whatsapp-track"
                     id="trf-avulso"
                   >
                     Contratar Avulso
@@ -102,7 +102,7 @@ export default function OfertaConstrutores() {
                   </ul>
                   <Link
                     href="https://wa.me/5538991369873?text=Olá,%20quero%20contratar%20a%20gestão%20mensal%20de%20tráfego%20pago%20de%20R$1200%20para%20gerar%20mais%20orçamentos%20para%20minha%20empresa.%20Pode%20me%20passar%20os%20detalhes?"
-                    className="cta-button"
+                    className="cta-button whatsapp-track"
                     id="trf-mensal"
                   >
                     Contratar Mensalidade
@@ -149,7 +149,7 @@ export default function OfertaConstrutores() {
 
               <h3>Tudo isso com um desconto especial você paga apenas:</h3>
               <p id="principal">
-                <strong>R$2.197,00</strong>
+                <strong>R$1.997,00</strong>
               </p>
 
               <p>
@@ -159,7 +159,7 @@ export default function OfertaConstrutores() {
                 </strong>
               </p>
               <Link
-                className="cta-button"
+                className="cta-button whatsapp-track"
                 href="https://wa.me/5538991369873?text=Olá,%20quero%20aproveitar%20a%20oferta%20completa%20da%20máquina%20de%20orçamentos%20por%20R$2.497.%20Quero%20mais%20clientes%20e%20fechar%20mais%20obras.%20Pode%20me%20atender?"
                 id="cta-principal"
               >

@@ -38,8 +38,21 @@ ${data.mensagem}
 `;
 
     const url = `https://wa.me/5538991369873?text=${encodeURIComponent(texto)}`;
+    // GOOGLE ADS
+    window.gtag?.("event", "conversion", {
+      send_to: "AW-17677408224/8Zy7CLmXj5ocEOCvn-1B",
+      value: 1.0,
+      currency: "BRL",
+    });
 
-    window.open(url, "_blank");
+    // META PIXEL
+    window.fbq?.("track", "Lead");
+
+    // Delay para garantir tracking antes de abrir whatsapp
+    setTimeout(() => {
+      window.open(url, "_blank");
+    }, 300);
+
     setLoading(false);
   }
 

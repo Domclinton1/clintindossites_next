@@ -9,12 +9,13 @@ export default function Footer() {
             <h3 className="text-metal">Clintin dos Sites</h3>
 
             <p>
-              Desenvolvimento de sites, landing pages, e-commerce, aplicativos e
-              tráfego pago.
+              Criação de sites, landing pages, loja virtual, aplicativos,
+              sistemas SaaS e tráfego pago.
             </p>
 
             <span className="global-badge">
-              🌎 Atendemos Brasil e Estados Unidos
+              📍 Localizado em Belo Horizonte, mas o atendimento acontece para o
+              Brasil inteiroe também para o exterior. 🌎
             </span>
           </div>
           <div>

@@ -15,7 +15,7 @@ export default function HeroPortfolio() {
         <Link
           href="https://wa.me/5538991369873"
           target="blank"
-          className="cta-button"
+          className="cta-button whatsapp-track"
         >
           Solicite seu projeto digital
         </Link>

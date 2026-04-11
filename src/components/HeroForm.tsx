@@ -14,7 +14,7 @@ export default function HeroForm() {
   function handleChange(
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >,
+    >
   ) {
     setForm({ ...form, [e.target.name]: e.target.value });
   }
@@ -33,7 +33,20 @@ export default function HeroForm() {
 
     const url = `https://wa.me/5538991369873?text=${encodeURIComponent(texto)}`;
 
-    window.open(url, "_blank");
+    // GOOGLE ADS
+    window.gtag?.("event", "conversion", {
+      send_to: "AW-17677408224/8Zy7CLmXj5ocEOCvn-1B",
+      value: 1.0,
+      currency: "BRL",
+    });
+
+    // META PIXEL
+    window.fbq?.("track", "Lead");
+
+    // Delay para garantir tracking antes de abrir whatsapp
+    setTimeout(() => {
+      window.open(url, "_blank");
+    }, 300);
   }
 
   return (
@@ -43,6 +56,7 @@ export default function HeroForm() {
         Preencha o formulário e envie seu pedido para o Whatsapp e receba a
         resposta hoje mesmo
       </p>
+
       <div>
         <label>Nome</label>
         <input

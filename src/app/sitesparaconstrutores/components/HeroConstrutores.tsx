@@ -15,7 +15,10 @@ export default function HeroConstrutores() {
             pago grátis para começar agora.
           </p>
 
-          <a href="https://wa.me/5538991369873" className="cta-button">
+          <a
+            href="https://wa.me/5538991369873"
+            className="cta-button whatsapp-track"
+          >
             Quero receber mais orçamentos
           </a>
         </div>

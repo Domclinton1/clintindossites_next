@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type Props = {
   href: string;
   children: React.ReactNode;
@@ -5,8 +7,12 @@ type Props = {
 
 export default function CtaButton({ href, children }: Props) {
   return (
-    <a href={href} target="_blank" className="cta-button m-auto">
+    <Link
+      href={href}
+      target="_blank"
+      className="cta-button whatsapp-track m-auto"
+    >
       {children}
-    </a>
+    </Link>
   );
 }

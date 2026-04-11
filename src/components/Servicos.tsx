@@ -87,7 +87,7 @@ export default function Servicos() {
                 <Link
                   href={url}
                   target="_blank"
-                  className="cta-button mx-auto mt-[20px]"
+                  className="cta-button whatsapp-track mx-auto mt-[20px]"
                 >
                   Solicitar orçamento no WhatsApp
                 </Link>

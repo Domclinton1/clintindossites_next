@@ -44,7 +44,6 @@ const rows = [
       },
     ],
   },
-
   {
     titulo: "Websites para negócios locais",
     itens: [
@@ -193,7 +192,6 @@ export default function Portfolio() {
         <h2 className="text-metal text-center text-4xl md:text-5xl font-extrabold">
           Portfólio
         </h2>
-
         <p className="text-[#bdbdbd] text-center mt-3 mt-[1rem] mb-[1rem]">
           Projetos desenvolvidos para negócios reais
         </p>
@@ -203,29 +201,11 @@ export default function Portfolio() {
             <h3 className="mb-[1.3rem] text-xl font-semibold">{row.titulo}</h3>
 
             {/* SCROLL */}
-            <div
-              className="
-              flex gap-[1rem] overflow-x-auto pb-[1rem]
-              scroll-smooth
-              scrollbar-thin
-              scrollbar-thumb-[rgba(127,61,255,0.4)]
-              "
-            >
+            <div className="flex gap-[1rem] overflow-x-auto pb-[1rem] scroll-smooth scrollbar-thin scrollbar-thumb-[rgba(127,61,255,0.4)]">
               {row.itens.map((item, index) => (
-                <a
+                <button
                   key={index}
-                  href={item.link}
-                  target="_blank"
-                  className="
-                  group
-                  relative
-                  flex-[0_0_240px] sm:flex-[0_0_260px] md:flex-[0_0_280px]
-h-[320px] sm:h-[340px] md:h-[380px]
-                  rounded-[18px]
-                  border border-[rgba(127,61,255,0.25)]
-                  bg-[#0b0b0f]
-                  overflow-hidden
-                  "
+                  className="group relative flex-[0_0_240px] sm:flex-[0_0_260px] md:flex-[0_0_280px] h-[320px] sm:h-[340px] md:h-[380px] rounded-[18px] border border-[rgba(127,61,255,0.25)] bg-[#0b0b0f] overflow-hidden cursor-pointer transition-all duration-300 hover:border-[rgba(127,61,255,0.5)] hover:shadow-[0_0_20px_rgba(127,61,255,0.3)]"
                 >
                   {/* IMAGE */}
                   <div className="relative h-full overflow-hidden">
@@ -233,43 +213,17 @@ h-[320px] sm:h-[340px] md:h-[380px]
                       src={item.img}
                       alt="Projeto"
                       fill
-                      className="
-                      object-cover
-                      min-h-[120%]
-                      transition-transform
-                      duration-[6000ms]
-                      ease-linear
-                      group-hover:-translate-y-[40%]
-                      "
+                      className="object-cover min-h-[120%] transition-transform duration-[6000ms] ease-linear group-hover:-translate-y-[40%]"
                     />
                   </div>
 
                   {/* OVERLAY */}
-                  <div
-                    className="
-                    absolute inset-0
-                    bg-[linear-gradient(to_top,rgba(11,11,15,0.95),rgba(11,11,15,0.2))]
-                    flex items-end justify-center
-                    pb-5
-                    opacity-0
-                    transition
-                    duration-300
-                    group-hover:opacity-100
-                    "
-                  >
-                    <span
-                      className="
-                      bg-[linear-gradient(135deg,#4b1fb8,#7f3dff,#9b6cff)]
-                      px-5 py-2
-                      rounded-full
-                      text-sm
-                      shadow-[0_0_20px_rgba(127,61,255,0.6)]
-                      "
-                    >
+                  <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(11,11,15,0.95),rgba(11,11,15,0.2))] flex items-end justify-center pb-5 opacity-0 transition duration-300 group-hover:opacity-100">
+                    <span className="bg-[linear-gradient(135deg,#4b1fb8,#7f3dff,#9b6cff)] px-5 py-2 rounded-full text-sm shadow-[0_0_20px_rgba(127,61,255,0.6)]">
                       Ver projeto
                     </span>
                   </div>
-                </a>
+                </button>
               ))}
             </div>
           </div>
