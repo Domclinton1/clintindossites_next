@@ -1185,3 +1185,16 @@ h3,
     flex-direction: wrap;
   }
 }
+
+/*MANUTENCAO COMPUTADORES*/
+.heroManutencao {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+.heroManuText {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

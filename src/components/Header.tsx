@@ -35,6 +35,10 @@ export default function Header() {
               Tráfego Pago
             </Link>
 
+            <Link href="/manutencao-pc" onClick={closeMenu}>
+              Manutenção Computadores
+            </Link>
+
             <Link href="/portfolio" onClick={closeMenu}>
               Portfólio
             </Link>
